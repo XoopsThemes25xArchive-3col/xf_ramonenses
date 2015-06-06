@@ -1,0 +1,426 @@
+/* 
+Theme Name: xf_05_2007 lightblue
+Description: XOOPS theme from basic CSS but with a content table to avoid some modulstuff
+Version: 1.5
+Author: Michael Hokamp 
+Author URI: http://hokamp.info from destination http://xoopsfactory.com
+*/
+
+@import url(blocks.css);
+@import url(menu.css);
+body { 
+margin-top:0;
+color: #000; 
+background: url(images/bg.gif) #ececec;    
+text-align: center; 
+font-family: Verdana, Arial, Sans-serif;
+font-size: 10px;
+line-height: 17px;
+margin: 0 0 0px 0;
+}
+
+div#page { 
+max-width: 920px; 
+color: #000; 
+margin: 0px auto 0px 0px;
+background: #fff; 
+text-align: left;
+border: 0px;
+padding: 10px;
+border: 2px solid #000;
+}
+
+#header {
+text-align: right;
+border: 0px;
+border-top: 0px solid #fff;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+background: #BB0000 no-repeat;
+height: 132px;
+width: 100%;
+ background-image: url(images/header.jpg);
+}
+
+#header a {
+color: #fff;
+}
+#fontsize {
+position: absolute;
+padding: 0px 2px 2px 2px;
+left: 870px;
+top: 150px;
+width: 20%;
+
+}
+form {
+	margin: 0px;
+	padding: 5px;
+	font-size: 10px;
+}
+#logo {
+text-align: left;
+width: 230px;
+float: left;
+height: 80px; 
+}
+
+#logo a {
+width: 230px;
+float: left;
+height: 80px; 
+margin: 0px 0px;
+padding: 0px;
+display: block;
+}
+
+#logo h1 {
+margin: 0px 0px;
+padding: 0px;
+}
+
+#logo span {
+display: none;
+}
+
+.clear {
+clear:left;
+}
+#publicidad {
+	background-color: transparent;
+	position: absolute;
+	left: 954px;
+	top: 0px;
+	width: 120px;
+	padding: 5px;
+}
+#xoopsbanner img{
+padding:0; margin:0;
+border: 1px solid #fff;
+
+}
+#xoopsbanner a:hover{
+background: transparent;
+}
+
+#xoopsbanner {
+padding: 50px 10px 5px 5px;
+margin-left: 100px;
+
+}
+
+#navTAB {
+text-align: left;
+border-top: 1px solid #9D0903;
+border-bottom: 3px solid #fff;
+height: 35px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0px;
+background: #8C0101 url(images/top_back.gif) repeat-x;
+width: 100%;
+text-transform:none;
+color: #fff;
+ font-size: 10px;
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#navTAB a{
+font-size: 10px;
+	color: #fff;
+}
+
+/* end of header styles */
+
+#contentArray1 {
+padding: 0px;
+margin-top: 0px;
+
+}
+
+#contentArray0, #contentArray {
+padding: 0px;
+}
+
+#content1 {
+padding: 0px; 
+}
+
+#content0, #content {
+padding: 0px;     
+}
+
+#centercolumn1 {
+padding:5px;
+padding-left:5px;
+padding-right:5px;
+}
+
+#centercolumn, #centercolumn0 {
+padding:10px;
+padding-left:25px;
+padding-right:0px;
+}
+
+#blockleft {
+width: 180px;
+margin: 0px;
+margin-right: 0px;
+padding: 0px;
+color: #333;
+}
+
+p {
+padding: 10px;
+padding-left: 0px;
+margin: 0px;
+}
+
+h1 {
+margin: 0px;
+font-size: 14px;
+padding: 10px;
+padding-left: 0px;
+}
+
+h2, h3 {
+margin: 0px;
+font-size: 11px;
+padding: 1px;
+padding-left: 0px;
+}
+
+img {
+border: 0px;
+}
+
+#blockright {
+color: #000;
+width: 180px;
+margin: 0px;
+margin-left: 0px;
+padding: 0px;
+}
+
+#leftcolumn {
+background: #B42222;
+}
+
+#rightcolumn {
+background: #fff;
+}
+
+b {
+font-size: 10px;
+color: #000;
+}
+
+strong {
+font-size: 10px;
+color: #696969;
+text-transform: none;
+}
+
+a {
+text-decoration: none;
+color: #000;
+font-size: 10px;
+}
+
+a:hover{
+color: #999;
+text-decoration: underline;
+}
+
+hr {
+height:1px;
+color: #fff;
+background: #fff;
+}
+
+#betweenfooter {
+text-align:center;
+border: 0px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+width: 100%;
+ background: #EDEDED;
+}
+
+#pagefooterend {
+background: #ccc;
+padding: 10px;
+padding-top:2px;
+padding-bottom:4px;
+color: #8F0101;
+font-size: 10px;
+border-top: 1px solid #fff;
+}
+#fondo {background-image: url(images/footer.gif);	background-repeat: repeat-x;	width: 920px;	height: 220px;	color: #FFF;padding-top: 10px; font-size: 11px;	background-color: #991002;list-style-type:none;}
+#fondo a{color:#fff;text-decoration: none;
+}
+#fondo a:hover{color:#ffcc00;text-decoration: underline;
+}
+.fondo ul {
+list-style-type:none;}
+.fondo li {
+list-style-type:none;}
+.footblocs {
+	color: #FFFFFF;
+	float: left;
+	padding: 5px;
+	margin-left: 3px;
+	margin-right: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #8f0101;
+}
+.footblocs a{
+padding-left:4px;
+color: #fff;
+}
+.foto2 {
+display:block;
+float:right;
+border:1px solid #E0CFA9;
+background-color:#FFF;
+margin-bottom:6px;
+margin-left:2px;
+padding:2px;
+}
+#pagefooterend a {
+color: #8F0101;
+font-size: 10px;
+text-decoration:none;
+}
+
+#pagefooterend a:hover {
+color: #fff;
+}
+
+#pagefooterendleft {
+width: 400px; 
+float:left;
+text-align:left;
+}
+
+#pagefooterendright {
+text-align: right;
+}
+
+#pagefooterend strong {
+font-size: 10px;
+color: #000;
+}
+
+table { 
+font-size: 10px;
+width:100%;
+}
+
+.submenu a {
+background: url(images/submenu.gif) no-repeat left center;
+padding-left:17px;
+color: #999;
+}
+
+.border {
+line-height:55px;
+width: 330px;
+background: #fff;
+}
+
+#modulcontent textarea {
+width: 310px;
+}
+
+#contentArray1 a:hover{
+color: #000;
+}
+
+ul {
+ list-style: none;
+}
+li {
+color:#2F5376;
+list-style-image:url(images/bull.gif);
+list-style-type:none;
+}
+td#bottomLcolumn, td#centerLcolumn {
+padding-right:10px;
+}
+input, textarea {
+	 border: 1px solid #9D9D9D;
+	 background: url(images/input.gif) no-repeat top left;
+	 padding: 1px 2px;
+	 color: #9A4B4B;
+}
+button {
+background-color :#FFFFFF; 
+color : #000000;
+font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+font-size : 10px; 
+font-weight : normal;
+border-color : #000000;
+border-top-width : 1px;
+border-right-width : 1px;
+border-bottom-width : 1px;
+border-left-width : 1px;
+text-indent : 2px;  
+}
+.itemHead {
+background:#efefef url(images/itemHead.gif) repeat-x;
+font-family:Times;
+color:#990000;
+font-weight: bold;
+padding:1px;
+ font-size: 14px;
+}
+.itemHead a{
+font-family:Times;
+color: #666666;
+font-weight:bold;
+padding:1px;
+ font-size: 14px;
+ text-transform: uppercase;
+}
+/* Xoops table classes */
+th {background-color: #ddd; color: #000; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.outer {border: 0px solid silver;}
+.headclasi {background-color: #B0BCC8; color: #fff; padding: 0px; font-weight: bold;  border-bottom: 4px solid #465560;  font-size: 14px; }
+.head {background-color: #ccc; color: #fff; padding: 5px; font-weight: bold;}
+.even {background-color: #ececec; padding: 5px;}
+.odd {background-color: #FFE2BF; padding: 5px;}
+.foot {background-color: #ccc; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #B0BCC8; padding: 5px;}
+tr.odd td {background-color: #D70808; padding: 5px; color:#fff;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+// istats styles
+    .statstable { margin:0px; padding:0px; width:auto; font-size: small; font-weight: normal;}
+    .stats { vertical-align: bottom; width:625px; margin:0; border: 0;}
+    .statsimg { vertical-align: bottom; width:25px; text-align:center;}
+    .statsimgweekday { vertical-align: bottom; font-size: small; font-weight: normal;}
+    .statswords { border-width: 0; font-size: x-small; background-color: transparent; font-weight: normal; text-align:center; width:25px;}
+    .statsfore { width: 30%; padding:2px;}
+    .statsdiv { text-align:center; padding:0px;}
+

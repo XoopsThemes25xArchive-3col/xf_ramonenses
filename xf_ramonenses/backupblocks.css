@@ -1,0 +1,331 @@
+/* 
+Theme Name: xf_05_2007 lightblue
+Description: XOOPS theme from basic CSS but with a content table to avoid some modulstuff
+Version: 1.5
+Author: Michael Hokamp 
+Author URI: http://hokamp.info from destination http://xoopsfactory.com
+*/
+
+div.ltitle {
+padding: 0px;
+width: 180px;
+height:30px;
+background : #fff;
+border-top: 1px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 0px solid #fff;
+ background-image: url(images/title.gif);
+ background-repeat: no-repeat;
+}
+
+div.ltitle h3 {
+color: #fff;
+font-size: 11px;
+padding: 2px;
+padding-left: 10px;
+text-transform: none;
+}
+
+div.lblockcontent {
+color: #fff;
+padding: 10px;
+background : #B42222;
+margin-bottom: 1px;
+border-bottom: 1px solid #B42222;
+}
+
+div.lblockcontent a {
+color: #fff;
+font-weight: normal;
+}
+
+div.lblockcontent a:hover {
+display:block;
+background-color: #9E1F1F;
+color: #fff;
+font-weight: bold;
+border-style: solid color:#fff;
+}
+
+div.lblockcontent b {
+color: #999;
+font-weight: bold;
+}
+
+#lblockend {
+width: 180px;
+background: url(images/leftend.gif) no-repeat top left;
+height:300px;
+}
+
+/* end left block settings */
+div.rtitle {
+padding: 0px;
+width: 180px;
+background : #fff;
+border-top: 0px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 0px solid #fff;
+ background-image: url(images/r_title.gif);
+ background-repeat: no-repeat;
+ }
+
+div.rtitle h3 {
+color: #BF5B0B;
+font-size: 11px;
+padding: 2px;
+padding-left: 10px;
+text-transform:uppercase;
+}
+
+div.rblockcontent {
+font-size: 10px;
+color: #000;
+padding: 5px;
+background : #fff;
+margin-bottom: 5px;
+background-image: url(images/border.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+div.rblockcontent a {
+color: #000;
+}
+
+div.rblockcontent a:hover {
+color: #999;
+}
+
+div.rblockcontent b {
+color: #000;
+}
+
+/* end right block settings */
+
+fieldset {padding:10px;border: 1px dotted #ccc;}
+legend {padding:10px;background:#fff;}
+
+#modulcontent em {
+font-size: 15px;
+font-style: normal;
+font-weight:bold;
+color: #000;
+}
+
+#modulcontent ul  {
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:0;
+text-align:left;
+}
+
+#modulcontent ul li ul li{
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:20px;
+text-align:left;
+}
+
+#modulcontent ul a {
+color: #333;
+text-decoration: none;
+}
+
+#modulcontent h2 {
+padding-top: 20px;
+font-size:15px;
+text-transform:uppercase;
+}
+
+#modulcontent h3 {
+padding-top: 20px;
+font-size:15px;
+color:#000;
+text-transform:uppercase;
+}
+
+#modulcontent h3 a {
+text-decoration:none;
+color: #999;
+text-transform:uppercase;
+}
+
+#modulcontent h4 {
+padding:0px;
+margin:0;
+padding-top: 5px;
+font-size:14px;
+color:#000;
+text-transform:uppercase;
+}
+
+#modulcontent {
+
+
+}
+
+#modulcontent p {
+padding: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.centerblocktitle h3 {
+padding-top: 2px;
+font-size:12px;
+color: #B42222;
+text-transform:uppercase;
+}
+
+div.centerblocktitle {
+	padding-left: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #B42222;
+	width: 230px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.centerblockcontent {
+padding:0px;
+padding-bottom:5px;
+padding-top:10px;
+text-align:left;
+background-image: url(images/border.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.centerblockende {
+/*background: url(images/conr.gif) repeat-x top right;
+height: 30px;*/
+}
+
+
+h2{
+padding-top: 15px;
+font-size:16px;
+color:#000;
+text-transform:uppercase;
+}
+
+h3{
+padding-top: 5px;
+font-size:15px;
+color:#000;
+text-transform:uppercase;
+}
+
+#mainmenutop  {
+margin:0;
+padding: 10px; 
+padding-left:0;
+text-align:right;
+ list-style: circle;
+}
+
+#mainmenutop li {
+font-size:100%;
+ display: inline;
+ list-style-image: url(images/bullet_news.gif);
+}
+
+#mainmenu a {
+display:block;
+ background-position: top;
+ background-repeat: no-repeat;
+}
+
+#mainmenu  {
+margin:0;
+padding: 0px; 
+padding-left:0;
+ list-style: none;
+}
+
+#mainmenu li {
+}
+
+#mainmenu li a {
+font-weight:normal;
+font-size: 10px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top right;
+padding-left: 17px;
+}
+
+#mainmenu li a:hover {
+font-weight:bold;
+font-size: 10px;
+padding-right: 0px;
+text-decoration:none;
+background-color: #666666;
+background: url(images/submenu.gif) no-repeat top right;
+padding-left: 17px;
+}
+
+#mainmenu a.menuSub {
+font-weight:normal;
+color: #FFD700;
+font-size: 10px;
+padding-right: 0px;
+text-decoration:none;
+background-color: #666666;
+background: url(images/submenu2.gif) no-repeat top right;
+padding-left: 5px;
+}
+
+#mainmenu a:hover.menuSub {
+font-weight:bold;
+color: #FFD700;
+font-size: 10px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top right;
+padding-left: 5px;
+}
+
+#mainmenu span {
+font-weight:normal;
+font-size: 12px;
+text-decoration:none;
+color: #333;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#usermenu a {
+display:block;
+}
+
+#usermenu  {
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:0;
+text-align:left;
+}
+
+#usermenu li {
+display:block;
+}
+
+#usermenu li a {
+font-weight:normal;
+font-size: 12px;
+padding: 5px;
+padding-right: 0px;
+text-decoration:none;
+}
+
+#usermenu li a:hover {
+font-weight:bold;
+font-size: 12px;
+padding: 5px;
+padding-right: 0px;
+}

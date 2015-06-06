@@ -1,0 +1,106 @@
+/* 
+Theme Name: xf_05_2007 lightblue
+Description: XOOPS theme from basic CSS but with a content table to avoid some modulstuff
+Version: 1.5
+Author: Michael Hokamp 
+Author URI: http://hokamp.info from destination http://xoopsfactory.com
+*/
+
+ul#navmenu {
+	text-align: left;
+  margin: 0;
+  border: 0;
+  padding: 0; padding-left:5px;
+  width: 500px; 
+  list-style: none;
+  height: 22px;
+}
+
+ul#navmenu li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; 
+  display: inline;
+  height: 22px;
+  padding-right: 10px;
+  list-style: none;
+}
+
+ul#navmenu a {
+  border: 0px solid #fff;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  padding: 0 6px;
+  float: none !important; 
+  float: left; 
+  display: block;
+  background: #8C0101;
+  color: #fff;
+  font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+  background: #fff;
+  color: #000;
+}
+.buttonscontainer {width: 160px;}
+
+.buttons a {color: #FFFFFF;
+border: 1px solid;
+background-color: #B42222;
+padding: 2px;
+padding-left: 3px;
+font: 10px Arial, sans-serif;
+font-weight: bold;
+text-decoration: none;
+border-color: #BF2323 #8F1A1A #8F1A1A #BF2323;
+display: block;
+margin: 0px;
+width: 100%;
+text-align: left;}
+
+.buttons a:hover {border: 1px solid;
+padding-left: 4px;
+padding-top: 3px;
+padding-bottom: 1px;
+padding-right: 1px;
+background-color: #990000;
+border-color: #8F1A1A #BF2323 #BF2323 #8F1A1A;
+color: #FFFF66;
+text-decoration: none;}
+
+.buttons a.menuSub {color: #FFD700;
+border: 1px solid;
+background-color: #701818;
+padding: 2px;
+padding-left: 3px;
+font: 10px Arial, sans-serif;
+font-weight: bold;
+text-decoration: none;
+border-color: #BF2323 #8F1A1A #8F1A1A #BF2323;
+display: block;
+margin: 0px;
+width: 100%;
+text-align: left;
+	}
+	.buttons a.menuSub:hover {color: #FFD700;
+border: 1px solid;
+background-color: #797979;
+padding: 2px;
+padding-left: 3px;
+font: 10px Arial, sans-serif;
+font-weight: bold;
+text-decoration: none;
+border-color: #BF2323 #8F1A1A #8F1A1A #BF2323;
+display: block;
+margin: 0px;
+width: 100%;
+text-align: left;
+	}
+

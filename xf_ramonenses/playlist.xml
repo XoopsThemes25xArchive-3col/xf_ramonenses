@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+
+		<track>
+			<title>Alrededor del Parque</title>
+			<creator>Ramonenses.com</creator>
+			<location>http://ramonenses.com/online/themes/xf_05_2007_lightblue/images/header/01.jpg</location>
+			<info>http://ramonenses.com/online</info>
+		</track>
+
+		<track>
+			<title>Entrada a San Ramon</title>
+			<creator>Ramonenses.com</creator>
+			<location>http://ramonenses.com/online/themes/xf_05_2007_lightblue/images/header/03.jpg</location>
+			<info>http://ramonenses.com/online/modules/xcgal/thumbnails.php?album=7</info>
+		</track>
+
+		<track>
+			<title>Nuestra Iglesia</title>
+			<creator>Ramonenses.com</creator>
+			<location>http://ramonenses.com/online/themes/xf_05_2007_lightblue/images/header/04.jpg</location>
+			<info>http://ramonenses.com/online</info>
+		</track>
+				
+		<track>
+			<title>Amanecer poeta</title>
+			<creator>Ramonenses.com</creator>
+			<location>http://ramonenses.com/online/themes/xf_05_2007_lightblue/images/header/05.jpg</location>
+			<info>http://ramonenses.com/online</info>
+		</track>
+		
+		<track>
+			<title>En lo alto</title>
+			<creator>Ramonenses.com</creator>
+			<location>http://ramonenses.com/online/themes/xf_05_2007_lightblue/images/header/06.jpg</location>
+			<info>http://ramonenses.com/online</info>
+		</track>
+		
+		<track>
+			<title>La Entrada de los Santos</title>
+			<creator>Ramonenses.com</creator>
+			<location>http://ramonenses.com/online/themes/xf_05_2007_lightblue/images/header/07.jpg</location>
+			<info>http://ramonenses.com/online/modules/xcgal/thumbnails.php?album=6</info>
+		</track>
+		
+		<track>
+			<title>Las Musas</title>
+			<creator>Ramonenses.com</creator>
+			<location>http://ramonenses.com/online/themes/xf_05_2007_lightblue/images/header/08.jpg</location>
+			<info>http://ramonenses.com/online/modules/xcgal/thumbnails.php?album=4</info>
+		</track>
+
+	</trackList>
+</playlist>
